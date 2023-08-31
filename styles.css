@@ -11,7 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("https://images.unsplash.com/photo-1502481851512-e9e2529bfbf9?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY5MzI1Mjg3Mg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
+    background-image: url("https://images.unsplash.com/photo-1515825838458-f2a94b20105a?crop=entropy&cs=tinysrgb&fit=crop&fm=jpg&h=900&ixid=MnwxfDB8MXxyYW5kb218MHx8bGFuZHNjYXBlfHx8fHx8MTY5MzM0Mjg5Mg&ixlib=rb-4.0.3&q=80&utm_campaign=api-credit&utm_medium=referral&utm_source=unsplash_source&w=1600");
 }
 
 .caixa-maior {
@@ -21,7 +21,6 @@ body {
     padding: 20px;
     width: 95%;
     max-width: 450px;
-
 }
 
 .input-cidade {
@@ -29,29 +28,34 @@ body {
     outline: none;
     padding: 10px;
     border-radius: 25px;
-    font-size: 17px;
+    font-size: 19px;
     background-color: #7c7c7c2b;
     color: #ffffff;
-    width: calc(100%-50px);
+    width: calc(80%);
+}
 
+.input-cidade:hover {
+    background-color: #7e57574b;
 }
 
 .botao-busca {
     border: none;
     outline: none;
-    padding: 10px;
+    padding: 9px;
     border-radius: 50px;
     background-color: #7c7c7c2b;
     cursor: pointer;
     float: right;
+}
 
-
+.botao-busca:hover {
+    background-color: #7e57574b;
 }
 
 .img-busca {
-    width: 20px;
-
+    width: 28px;
 }
+
 
 .caixa-media {
     margin-top: 30px;
@@ -67,7 +71,6 @@ body {
     font-size: 20px;
     color: #ffffff;
     margin-top: 20px;
-
 }
 
 .caixa-menor {
@@ -79,6 +82,7 @@ body {
 .texto-previsao {
     color: #ffffff;
     margin-left: 20px;
+    text-transform: capitalize;
 }
 
 .umidade {
